@@ -1,4 +1,3 @@
-
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
@@ -11,17 +10,17 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-#expirydate = datetime.date(2021, 10, 1)
-expirydate = datetime.date(2021, 8, 30)
+#expirydate = datetime.date(2030, 8, 30)
+expirydate = datetime.date(2030, 8, 30)
 today=date.today()
 def hero():
 
     def chalo():
-        done = True
+        done = true
         #here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
-                if Good:
+                if done:
                     break
                 sys.stdout.write('\rhacking in the parity server for next colour--------- ' + c)
                 sys.stdout.flush()
@@ -36,11 +35,11 @@ def hero():
         done = True
 
     def chalo1():
-        done = True
+        done = False
         #here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']):
-                if Good:
+                if done:
                     break
                 sys.stdout.write('\rgetting the colour wait --------- ' + c)
                 sys.stdout.flush()
@@ -70,8 +69,8 @@ def hero():
 
 
 
-if(expirydate>today):
-    now = datetime.datetime.now(2021, 1, 9)
+if(expirydate>never):
+    now = datetime.datetime.now()
     First = now.replace(hour=13, minute=55, second=0, microsecond=0)
     Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
     Second = now.replace(hour=15, minute=55, second=0, microsecond=0)
@@ -81,26 +80,26 @@ if(expirydate>today):
     Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
-    if (True):
-            period=220
+    if (False):
+            period=Current
             hero()
     elif(now>First and now<Firstend):
-            period=280
+            period=Current
             hero()
     elif(now>Third and now<Thirdend):
-            period=340
+            period=Current
             hero()
     elif(now>Final and now<Finalend):
-            period=360
+            period=Current
             hero()
     else:
         banner='figlet RXCE'
         print("Hi!! Thanks for buying the hack")
         print("----------Your play time-----------")
-        print("1st Sept 2021, 11:00 AM- 11:30 AM")
-        print("1st Sept 2021, 02:00 PM- 02:30 PM")
-        print("1st Sept 2021, 05:00 PM- 05:30 PM")
-        print("1st Sept 2021, 08:00 PM- 08:30 PM")
+        print("")
+        print("")
+        print("")
+        print("")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @smsn_knt ")
@@ -110,11 +109,5 @@ if(expirydate>today):
 else:
     banner='figlet RXCE'
     system(banner)
-    print("*---------*----------*-------------*----------*")
     print("Your hack has expired--- Please contact")
-    print(" on telegram ----@smsn_knt for activating")
-    print(" Recharge Amount :        Total limit " )
-    print(" 1.     1000 INR -------  1 Day (40 Games")
-    print(" 2.     5000 INR -------  7 Days(280 Games")
-    print("*---------*----------*-------------*----------*")
-    print("Your custom hack can be made request from us.")
+    print(" on telegram -----------@smsn_knt")
