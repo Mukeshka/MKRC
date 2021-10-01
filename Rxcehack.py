@@ -171,9 +171,3 @@ else:
     print(" 2.     3000 INR -------  30 Days(1200 Games")
     print("*---------*----------*-------------*----------*")
     print("Your custom hack can be made request from us.")
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
